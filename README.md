@@ -31,7 +31,7 @@ Asegúrate de tener Python 3.6+ instalado. Puedes descargarlo desde [python.org]
 Inicia la aplicación FastAPI.
 
   uvicorn main:app --reload
-  # Esto iniciará el servidor de desarrollo en http://localhost:8000.
+  Esto iniciará el servidor de desarrollo en http://localhost:8000.
 
 Abre tu navegador web y visita http://localhost:8000/docs para acceder a la documentación interactiva generada automáticamente con Swagger. Aquí podrás probar los endpoints de la API y obtener detalles sobre su funcionamiento.
 
