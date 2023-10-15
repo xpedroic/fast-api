@@ -16,22 +16,22 @@ Asegúrate de tener Python 3.6+ instalado. Puedes descargarlo desde [python.org]
    git clone https://github.com/tuusuario/tuproyecto-fastapi.git
    cd tuproyecto-fastapi
    
-2. Crea un entorno virtual (opcional pero recomendado).
+3. Crea un entorno virtual (opcional pero recomendado).
 
-  python -m venv venv
-  source venv/bin/activate  # En sistemas Unix/Linux
-  venv\Scripts\activate  # En Windows
+   python -m venv venv
+   source venv/bin/activate  # En sistemas Unix/Linux
+   venv\Scripts\activate  # En Windows
 
 3. Instala las dependencias.
-
-  pip install -r requirements.txt
+   
+   pip install -r requirements.txt
 
 ## Uso
 
 Inicia la aplicación FastAPI.
 
-  uvicorn main:app --reload
-  Esto iniciará el servidor de desarrollo en http://localhost:8000.
+   uvicorn main:app --reload
+   Esto iniciará el servidor de desarrollo en http://localhost:8000.
 
 Abre tu navegador web y visita http://localhost:8000/docs para acceder a la documentación interactiva generada automáticamente con Swagger. Aquí podrás probar los endpoints de la API y obtener detalles sobre su funcionamiento.
 
